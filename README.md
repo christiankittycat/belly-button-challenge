@@ -1,1 +1,7 @@
 # belly-button-challenge
+
+In this project, I built an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species, called operational taxonomic units (OTUs), were present in over 70% of people, while the rest were relatively rare. The project repository, named belly-button-challenge, was created and deployed to GitHub Pages for easy access.
+
+The implementation involved using the D3 library to read data from a provided URL and create visualizations. A horizontal bar chart was created with a dropdown menu to display the top 10 OTUs for each individual, using sample values, OTU IDs, and OTU labels for values, labels, and hovertext, respectively. Additionally, a bubble chart was developed to display each sample with OTU IDs for x values, sample values for y values, marker sizes, marker colors, and text values.
+
+To enhance user interaction, I included a feature to display an individual’s demographic information by looping through each key-value pair in the metadata and appending it to the #sample-metadata panel. The dashboard updates all plots when a new sample is selected, allowing for dynamic data exploration. The project was thoroughly documented, with regular commits to the GitHub repository, and deployed to a static page hosting service for easy access and demonstration.
